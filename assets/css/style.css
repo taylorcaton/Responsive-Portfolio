@@ -144,6 +144,7 @@ img#bio-image{
 	background-color: #ffffff;
 	box-sizing: border-box;
 	margin-right: 35px;
+	margin-bottom: 35px;
 }
 
 
@@ -249,4 +250,31 @@ input[type="text"] {
 
 textarea {
     width: 100%;
+}
+
+/*<!------------- MEDIA QUERIES ----------------->*/
+
+
+@media screen and (max-width: 980px){
+	
+}
+
+@media screen and (max-width: 768px){
+	#AboutMe{
+		width: 100%;
+	}
+
+	#SocialBox{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#AboutMe{
+		width: 100%;
+	}
+
+	#SocialBox{
+		width: 100%;
+	}
 }
