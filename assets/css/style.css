@@ -276,8 +276,25 @@ textarea {
 	}
 
 	.nav{
+		clear: both;
+		display: block;
+		float: none;
 		font-size: 10px;
-		margin: 5px;
+		margin: 30px auto;
+		background-color: white;
 	}
+	
+	.container{
+		margin-top:72px;
+	}
+
+	.headerContainer{
+		width: 100%;
+	}
+
+	.headerContainer h1{
+		margin-left: 10%; 
+	}
+
 
 }
