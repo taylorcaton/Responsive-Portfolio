@@ -256,7 +256,7 @@ textarea {
 
 
 @media screen and (max-width: 980px){
-	
+
 }
 
 @media screen and (max-width: 768px){
@@ -270,11 +270,14 @@ textarea {
 }
 
 @media screen and (max-width: 640px){
-	#AboutMe{
-		width: 100%;
+	
+	.header{
+		position: static;
 	}
 
-	#SocialBox{
-		width: 100%;
+	.nav{
+		font-size: 10px;
+		margin: 5px;
 	}
+
 }
