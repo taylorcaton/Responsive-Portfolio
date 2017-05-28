@@ -280,20 +280,22 @@ textarea {
 		display: block;
 		float: none;
 		font-size: 10px;
-		margin: 30px auto;
 		background-color: white;
+		border-bottom: 3px solid #777;
+		margin-bottom: 35px;
 	}
 	
 	.container{
-		margin-top:72px;
+		margin-top:107px;
 	}
 
 	.headerContainer{
 		width: 100%;
+
 	}
 
 	.headerContainer h1{
-		margin-left: 10%; 
+		width: 100%;
 	}
 
 
