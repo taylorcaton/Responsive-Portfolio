@@ -1,0 +1,89 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  background-image: url("images/playstation-pattern.png");
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: transparent;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #666666;
+  border-top: 3px solid #4aaaa5;
+  color: white;
+}
+
+.navbar-header h1{
+	margin: 0px;
+	background-color: #4aaaa5;
+	margin-left: 0px !important; 
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  background-color: #4aaaa5 !important;
+  color: #999999;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+.AboutMe img{
+	display: inline;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.AboutMe{
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.AboutMe h3, .SocialBox h3{
+	color: #4aaaa5;
+	margin-bottom: -15px;
+}
+
+.SocialBox{
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+.SocialBox img{
+	width: 50px;
+	padding-bottom: 10px;
+}
+
+.SocialBox img:hover{
+	opacity: 0.7;
+}
+
+nav{
+	background-color: 
+}
+
+.Contact{
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+.Portfolio img:hover{
+	opacity: 0.7;
+}
+
